@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asset&display=swap" rel="stylesheet">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" href="./img/homeImg/logo-site.png" type="image/png"> <!-- Caminho para a imagem -->
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-form">
+            <h2><img class="usuario-img" src="./img/loginImg/usuario.jpg" alt="Usuário"></h2>
+            <form action="javascript:void(0);">
+                <div class="input-group">
+                    <label class="espaco" for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label class="espaco" for="password">password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <p id="error-message"></p> <!-- Mensagem de erro -->
+                <button class="entrar" type="button" id="login-btn">Entrar</button>
+                <button id="visit-btn" class="visitante-btn">Entrar Como Visitante</button> <!-- Agora um botão estilizado -->
+            </form>
+        </div>
+        <div class="lado">
+            <div class="lado2">
+                <h1>Login</h1>
+                <h2 class="bemVindo">Bem-vindo ao nosso site. <br> Acesso a galeria dos estudantes do 2° Informática do ano de 2025</h2>
+                <h2 class="visitante">Você é um visitante?</h2>
+                <button id="back-btn"><a href="./index.html">Voltar</a></button> <!-- Botão de voltar reposicionado -->
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/login.js"></script> 
+</body>
+</html>

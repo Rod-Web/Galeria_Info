@@ -1,0 +1,158 @@
+/*Paleta de cores
+color: #011C40;
+color: #011126;
+color: #032859;
+color: #074973;
+color: #08678C;
+*/
+
+* p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* strong a{
+    color:black;
+    text-decoration: none;
+}
+
+* strong a:hover{
+    text-decoration: underline;
+}
+
+* h1{
+    font-family: 'League spartan';
+}
+
+* h2{
+    font-family: 'Host Grotesk';
+}
+
+* a{
+    font-family: 'Tomorrow';
+}
+
+body{
+    margin:0;
+    overflow-x: hidden;
+}
+
+nav{
+    padding:5px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+nav picture img{
+    width:90px;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right:25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+}
+
+header #destaque #p-titulo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+    font-size: 1.2em;
+    font-family: 'Host Grotesk';
+    color:#011126;
+}
+
+header #destaque #p-titulo img{
+    margin-left: 3px;
+    width:25px;
+}
+
+header #destaque h1{
+    margin-top:2px;
+    margin-bottom: 2px;
+    font-size: 5em;
+    color:#011126;
+}
+
+header #destaque h1 picture img#circulo-net{
+    width:80px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.11);
+}
+
+header #destaque p{
+    max-width: 400px;
+}
+
+header aside#destaque #bloco-apresentar{
+    margin-bottom:25px;
+}
+
+header #container-btn-login{
+    display:flex;
+    align-items: center;
+}
+
+header #container-btn-login #btn-login{
+    width:280px;
+    height:35px;
+    border-radius: 10px;
+    outline: none;
+    border:1px solid rgba(0, 0, 0, 0.336);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.336);
+    padding:3px;
+    background-color: #074973;
+    transition: 0.5s;
+}
+
+header #container-btn-login #btn-login:hover{
+    width:290px;
+    height:45px;
+}
+
+header #container-btn-login #btn-login a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    transition: 0.5s;
+}
+
+header #container-btn-login #btn-login a:hover{
+    font-size: 30px;
+}
+
+header aside#img-destaque img#img-destaque-pc{
+    margin-top: 10px;
+    width:450px;
+}
+
+footer{
+    text-align: center;
+    max-width: 100%;
+    padding:10px;
+}

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../../../img/loginImg/bglogin.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;  /* Ajuste do tamanho para aproximar os elementos */
+    background-color: rgba(242, 242, 242, 0.85); /* Diminuindo a opacidade */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.login-form {
+    width: 48%;  /* Ajuste de largura para aumentar espaço útil */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.usuario-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3b637c;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.entrar, .visitante-btn {
+    width: 100%;
+    background-color: #074973;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;  /* Adicionando transições para hover */
+}
+
+/* Estilizando o hover dos botões */
+.entrar:hover, .visitante-btn:hover {
+    background-color: #062d4d;  /* Mudança de cor ao passar o mouse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);  /* Sombra suave */
+}
+
+.lado {
+    width: 45%;  /* Ajuste da largura */
+    background-color: #074973;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lado h1, .lado h2 {
+    margin-bottom: 10px;
+}
+
+.lado #back-btn {
+    background-color: white;
+    color: #074973;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s;  /* Adicionando transições para hover */
+}
+
+.lado #back-btn:hover {
+    background-color: #062d4d;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);  /* Sombra suave */
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .login-form, .lado {
+        width: 100%;
+    }
+}
