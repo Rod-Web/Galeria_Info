@@ -10,6 +10,11 @@
     "img": "uploads/1742774238650-402647101.jpg"
   },
   {
+    "username": "Christyan S",
+    "password": "senha123",
+    "img": "uploads/1742824692844-403816919.jpg"
+  },
+  {
     "username": "Caio",
     "password": "senha123",
     "img": "uploads/1742775191505-978966884.jpg"
@@ -52,7 +57,7 @@
   {
     "username": "Gabriel",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742832864302-30596417.jpg"
   },
   {
     "username": "Glaydson",
@@ -62,7 +67,7 @@
   {
     "username": "Guilherme",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742832740649-51378580.jpg"
   },
   {
     "username": "Leonardo",
@@ -92,7 +97,7 @@
   {
     "username": "Marcos",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742823156519-795611740.jpg"
   },
   {
     "username": "Mariana",
@@ -107,17 +112,17 @@
   {
     "username": "Miguel",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742823824907-873086124.jpg"
   },
   {
     "username": "Mirela",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742832654251-687950540.jpg"
   },
   {
     "username": "Murilo",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742823137085-500299836.jpg"
   },
   {
     "username": "Nicolas H",
@@ -137,7 +142,7 @@
   {
     "username": "Rafaela",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742823575998-601157408.jpg"
   },
   {
     "username": "Rayssa",
@@ -147,7 +152,7 @@
   {
     "username": "Roberto",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742823171870-462576776.jpg"
   },
   {
     "username": "Rodrigo",
@@ -165,9 +170,14 @@
     "img": "uploads/1742775616814-534641431.jpg"
   },
   {
+    "username": "Stefanny",
+    "password": "senha123",
+    "img": "uploads/1742823243511-472880347.jpg"
+  },
+  {
     "username": "Thifany",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742832696501-320829925.jpg"
   },
   {
     "username": "Thiago",
@@ -177,11 +187,11 @@
   {
     "username": "Vinícius",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742823064478-289823845.jpg"
   },
   {
     "username": "Yago",
     "password": "senha123",
-    "img": ""
+    "img": "uploads/1742832673587-607017433.jpg"
   }
 ]
